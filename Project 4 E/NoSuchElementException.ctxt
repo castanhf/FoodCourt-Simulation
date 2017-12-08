@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=
+comment0.target=NoSuchElementException()
+comment0.text=\r\n\ Constructs\ a\ NoSuchElementException\ with\ no\ detail\ message.\r\n
+comment1.params=msg
+comment1.target=NoSuchElementException(java.lang.String)
+comment1.text=\r\n\ Constructs\ a\ NoSuchElementException\ with\ a\ detail\ message.\r\n\ @param\ msg\ the\ detail\ mesage\ pertaining\ to\ this\ exception.\r\n
+numComments=2

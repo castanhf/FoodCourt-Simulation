@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=clock
+comment0.target=PersonProducer(Clock)
+comment0.text=the\ next\ block,\ following\ this\ block,\ is\ the\ FoodCourt
+comment1.params=e
+comment1.target=void\ performAction(Event163)
+comment2.params=e\ p
+comment2.target=void\ report(Event163,\ Person)
+comment3.params=
+comment3.target=void\ showStatistics()
+numComments=4

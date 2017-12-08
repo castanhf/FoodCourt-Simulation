@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PriorityQueue163()
+comment1.params=object
+comment1.target=void\ add(java.lang.Object)
+comment1.text=\r\n\ The\ add\ method\ adds\ an\ Event163\ object\ to\ the\r\n\ priority\ queue\ so\ that\ the\ events\ in\ the\ list\r\n\ are\ always\ in\ chronological\ order,\ where\ the\r\n\ pending\ event\ with\ the\ earliest\ time\ is\ at\ the\r\n\ front\ of\ the\ list,\ at\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ this.beginMarker.next\r\n\ \r\n\ TODO\:\ \ Please\ write\ this\ method\ so\ that\ we\ can\r\n\ use\ it\ there\ in\ place\ of\ the\ java\ API\ ArrayList\r\n\ and\ java\ API\ PriorityQueue\ classes.\r\n\r\n\ Please\ check\ out\ the\ textbook\ to\ see\ how\ to\ use\ \r\n\ "compareTo"\ with\ AnyType.\ The\ Event163\ class\ defines\ \r\n\ "compareTo"\ that\ depends\ on\ the\ event\ time\ field.\ \r\n\ You\ need\ to\ use\ the\ Event163\ "compareTo"\ method\ in\r\n\ the\ following\ "add"\ method\ to\ keep\ the\ priority\r\n\ queue\ in\ chronological\ order.\r\n\ \r\n\ Search\ for\ the\ correct\ place,\ i.e.\ node,\r\n\ in\ the\ priority\ queue\ for\ adding\ the\ new\r\n\ Event163\ type\ object,\ starting\ at\ the\ end,\r\n\ and\ then\ search\ backwards\ with\ the\ iterative\r\n\ step\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ node\ \=\ node.prev;\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ Remember\ that\ the\ beginMarker\ and\ endMarker\r\n\ nodes\ do\ not\ contain\ data.\r\n\ \r\n\ Iteration\ postively\ needs\ to\ stop\ whenever\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ node\ \=\=\ beginMarker\ \ \r\n\ if\ not\ before,\ for\ whatever\ is\ the\ correct\ place.\r\n\ Remark\:\ do\ not\ use\ the\ size\ method\ to\ control\r\n\ \ \ \ \ \ \ \ \ the\ number\ of\ iterations\r\n\ \ \ \ \ \ \ \ \ \ \ 1)\ you\ do\ not\ need\ it\r\n\ \ \ \ \ \ \ \ \ \ \ 2)\ an\ error\ in\ the\ size\ method\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ may\ result\ in\ a\ null\ reference\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ @param\ object.\r\n
+comment2.params=
+comment2.target=java.lang.Object\ poll()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4

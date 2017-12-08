@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=simulation\ parentFrame
+comment0.target=SimulationControlsPanel(Simulation,\ javax.swing.JFrame)
+comment1.params=listener
+comment1.target=javax.swing.JPanel\ createPersonProducerPanel(SimulationControlsPanel.Listener)
+comment2.params=listener
+comment2.target=javax.swing.JPanel\ createClockPanel(SimulationControlsPanel.Listener)
+comment3.params=listener
+comment3.target=javax.swing.JPanel\ createTerminatePanel(SimulationControlsPanel.Listener)
+comment4.params=listener
+comment4.target=javax.swing.JPanel\ createInterArrivalPanel(SimulationControlsPanel.Listener)
+comment5.params=listener
+comment5.target=javax.swing.JPanel\ createClockSpeedPanel(SimulationControlsPanel.Listener)
+comment6.params=
+comment6.target=java.lang.String\ getCurrentTime()
+comment6.text=\r\n\ Determines\ the\ time\ in\ hours,\ minutes,\ and\ seconds\r\n\ \r\n\ @return\ \ \ \ \ current\ time\r\n
+comment7.params=
+comment7.target=void\ updatePerformanceParameters()
+comment8.params=
+comment8.target=void\ continuousSteps()
+numComments=9

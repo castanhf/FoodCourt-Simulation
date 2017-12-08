@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.params=
+comment0.target=RandomNormal()
+comment1.params=mean
+comment1.target=double\ number(double)
+comment1.text=\r\n\ ----------------------------------------------------------------\r\n\ Let\ Z\ denote\ the\ normal\ distribution,\ also\ called\ Gaussian,\r\n\ the\ graph\ of\ which\ is\ bell\ shaped\ with\ a\ mean\ (M)\ of\ 0\ and\r\n\ a\ standard\ diviation\ (SD)\ of\ 1.\r\n\ \r\n\ The\ interval\ [-3,3]\ contains\ 99.74%\ of\ the\ values\ in\ the\r\n\ Z\ population,\ i.e.\r\n\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ P(\ Z\ |\ -3\ <\=\ Z\ <\=\ 3\ )\ \ \=\ .9974\r\n\ The\ population\ of\ values\ for\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ SD\ *\ Z\r\n\ has\ a\ mean\ of\ 0\ with\ as\ standard\ deviation\ of\ SD\ so\ that\r\n\ \r\n\ \ \ \ \ \ \ \ \ \ P(\ SD*Z\ |\ -3*SD\ <\=\ SD*Z\ <\=\ 3*SD\ )\ \ \=\ .9974\r\n\ \r\n\ has\ a\ mean\ of\ M\ with\ a\ standard\ deviation\ of\ SD.\r\n\ \r\n\ Thus,\ 99.74%\ of\ the\ values\ generated\ by\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ M\ *\ SD\ *\ nextGaussian()\ +\ M\r\n\ are\ within\ the\ interval\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ [M\ *\ (1\ -\ 3*SD),\ M\ *\ (1\ +\ 3*SD)]\r\n\ which\ reduces\ to\ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ [0,\ 2*M]\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \r\n\ with\ SD\ chosen\ to\ be\ 1/3\ (\=\ 0.333...).\r\n\ -----------------------------------------------------------------\r\n
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

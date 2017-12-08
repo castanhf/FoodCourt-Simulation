@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=checkout
+comment0.target=CheckoutPanel(Checkout)
+comment1.params=listener
+comment1.target=javax.swing.JPanel\ createControlPanel(CheckoutPanel.Listener)
+comment2.params=serviceTimeEstimate
+comment2.target=void\ addCashier(double)
+numComments=3

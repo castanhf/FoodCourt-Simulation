@@ -1,0 +1,33 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Clock()
+comment1.params=
+comment1.target=void\ nextStep()
+comment10.params=
+comment10.target=void\ saveArrivals()
+comment11.params=
+comment11.target=void\ showStatistics()
+comment12.params=time
+comment12.target=java.lang.String\ inSeconds(double)
+comment13.params=time
+comment13.target=java.lang.String\ inMinutes(double)
+comment14.params=args
+comment14.target=void\ main(java.lang.String[])
+comment2.params=
+comment2.target=void\ run()
+comment3.params=endingTime
+comment3.target=void\ run(int)
+comment4.params=continuousTime
+comment4.target=void\ continuousSteps(int)
+comment4.text=\r\n\ The\ continuousSteps\ method\ repeatedly\ calls\r\n\ nextStep\ followed\ by\ a\ peek\ into\ futureEvents\r\n\ \ \ \ \ \ for\ the\ next\ event\r\n\ \ \ 1)\ The\ first\ step\ is\ a\ peek\ into\ futureEvents\r\n\ \ \ \ \ \ for\ the\ next\ event.\r\n\ \ \ 2)\ As\ long\ as\ the\ event\ is\ not\ null\ and\r\n\ \ \ \ \ \ continuousTime\ >\=\ event.eventTime\ the\ method\r\n\ \ \ \ \ \ continues\ loop\ execution\ of\ the\ following\r\n\ \ \ \ \ \ \ \ \ \ A)\ invokes\ the\ nextStep\ method\ \r\n\ \ \ \ \ \ \ \ \ \ B)\ Use\ the\ peek\ method\ with\ futureEvents\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ for\ the\ next\ event.\ \ \ \ \ \r\n
+comment5.params=cl
+comment5.target=void\ add(ClockListener)
+comment6.params=e
+comment6.target=void\ add(Event163)
+comment7.params=averageInterEventTime\ maxTime
+comment7.target=void\ scheduleArrival(double,\ double)
+comment8.params=averageInterArrivalTime\ maxTime
+comment8.target=void\ scheduleAllArrivals(double,\ double)
+comment9.params=
+comment9.target=void\ scheduleAllArrivals()
+numComments=15

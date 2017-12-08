@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=clock\ name\ serviceTimeEstimate\ nextBlock\ x
+comment0.target=Cashier(Clock,\ java.lang.String,\ double,\ Terminate,\ int)
+comment1.params=e
+comment1.target=void\ performAction(Event163)
+comment1.text=\r\n\ The\ Cashier\ performAction\ methods\ checks\ out\ a\ person.\r\n\ The\ performAction\ method\ implements\ the\ simulated\ action\ \r\n\ for\ a\ person\ to\ first\ ENTER\ and\ (when\ called\ a\ second\ time)\r\n\ later\ LEAVE\ with\ the\ same\ cashier.\r\n\ \r\n\ The\ Cashier\ field\ "this.person"\ is\ a\ reference\ to\ the\ real\r\n\ person\ that\ the\ casher\ advances\ through\ the\ ENTER-LEAVE\r\n\ event\ sequence.\ The\ last\ statement\ to\ execute\ in\ the\r\n\ LEAVE\ sequence\ is\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ this.person\ \=\ null;\r\n\ which\ means\ that\ this\ casher\ has\ checked\ out\ this.person.\r\n
+comment2.params=e
+comment2.target=void\ report(Event163)
+comment3.params=
+comment3.target=void\ showStatistics()
+numComments=4

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Terminate()
+comment1.params=clock
+comment1.target=Terminate(Clock)
+comment2.params=person
+comment2.target=void\ add(Person)
+comment3.params=e
+comment3.target=void\ performAction(Event163)
+comment4.params=
+comment4.target=java.lang.String\ PQtoString()
+comment4.text=\r\n\ \ \ \ public\ String\ PQtoString()\r\n\ \ \ \ {\r\n\ \ \ \ String\ str\ \=\ "\ PQ\ "+\ this.PQ.size()\ +\ "\:\ "\ ;\r\n\ \ \ \ for\ (Person\ p\:\ this.PQ)\r\n\ \ \ \ {\r\n\ \ \ \ str\ +\=\ p.trackingNumber\ +\ "\ ";\r\n\ \ \ \ }\r\n\ \ \ \ return\ str;\r\n\ \ \ \ }\r\n
+comment5.params=eventType\ color\ person
+comment5.target=void\ report(java.lang.String,\ java.awt.Color,\ Person)
+comment6.params=
+comment6.target=void\ showStatistics()
+numComments=7

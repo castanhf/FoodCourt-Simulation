@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=foodCourt
+comment0.target=FoodCourtPanel(FoodCourt)
+comment1.params=listener
+comment1.target=javax.swing.JPanel\ createControlPanel(FoodCourtPanel.Listener)
+comment2.params=serviceTimeEstimate\ n
+comment2.target=void\ addEatery(double,\ int)
+numComments=3

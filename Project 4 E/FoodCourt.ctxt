@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=clock
+comment0.target=FoodCourt(Clock)
+comment1.params=eatery
+comment1.target=void\ add(Eatery)
+comment1.text=\r\n\ This\ add\ method\ indexes\ the\ eatery,\ specified\ by\r\n\ the\ parameter,\ into\ the\ "this.eatery"\ array.\r\n\ The\ checkout\ block,\ denoted\ by\ "this.nextBlock",\r\n\ is\ assiged\ to\ be\ the\ "nextBlock"\ for\ the\ eatery.\r\n
+comment2.params=person\ e
+comment2.target=void\ add(Person,\ Event163)
+comment2.text=\r\n\ This\ add\ method\ chooses\ an\ eatery\ at\ random\ from\ the\r\n\ number\ of\ available\ eateries.\r\n\ \r\n\ The\ eatery\ number\ needs\ to\ be\ remembered\ in\ the\ event\r\n\ object,\ e.serverIndex,\ for\ later\ reference,\ when\ the\ \r\n\ performAction\ method\ is\ invoked\ by\ the\ clock\ object.\r\n\ \r\n
+comment3.params=e
+comment3.target=void\ performAction(Event163)
+comment3.text=\r\n\ Carefully\ review\ this\ method\ for\ accuracy\ and\ for\ understanding\ of\ how\r\n\ a\ food\ court,\ as\ part\ of\ the\ simulation,\ should\ handle\ ENTER\ and\ LEAVE\r\n\ events,\ of\ Event163\ type,\ and\ appropriately\ channel\ the\ person\ through\r\n\ their\ selected\ eatery.\ Some\ circumstances\ require\ special\ consideration.\r\n\ \r\n\ \ \ \ \ \ \ What\ if\ all\ the\ eateries\ are\ closed,\ i.e.\r\n\ \ \ \ \ \ \ where\ "this.eateries\ \=\=\ 0"?\ \ \r\n\ \ \ \ \ \ \ \r\n\ \ \ \ \ \ \ What\ if\ the\ selected\ eatery\ server\ is\ busy,\r\n\ \ \ \ \ \ \ i.e.\ where\ "eatery[\ e.serverIndex\ ].person\ \!\=\ null"?\r\n
+comment4.params=
+comment4.target=int\ personsInFoodCourt()
+comment4.text=\r\n\ This\ method\ returns\ the\ sum\ total\ of\ all\ customers\r\n\ currently\ in\ anyone\ of\ the\ available\ eateries.\r\n
+comment5.params=
+comment5.target=int\ getThroughput()
+comment6.params=
+comment6.target=java.lang.String\ toString()
+comment7.params=e
+comment7.target=void\ report(Event163)
+comment8.params=
+comment8.target=void\ showStatistics()
+numComments=9

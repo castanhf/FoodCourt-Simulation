@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=clock\ name\ serviceTimeEstimate
+comment0.target=Eatery(Clock,\ java.lang.String,\ double)
+comment1.params=person
+comment1.target=void\ add(Person)
+comment2.params=e
+comment2.target=void\ performAction(Event163)
+comment3.params=e
+comment3.target=void\ report(Event163)
+comment4.params=
+comment4.target=java.lang.String\ PQtoString()
+comment5.params=
+comment5.target=void\ showStatistics()
+numComments=6

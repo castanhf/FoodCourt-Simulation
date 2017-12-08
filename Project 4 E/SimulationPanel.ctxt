@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=parentFrame
+comment0.target=SimulationPanel(javax.swing.JFrame)
+comment1.params=
+comment1.target=void\ createSimulation()
+numComments=2
